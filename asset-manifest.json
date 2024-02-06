@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Fran-Portfolio/static/css/main.ac87e3cc.css",
+    "main.js": "/Fran-Portfolio/static/js/main.64aa8b90.js",
+    "static/js/592.744e2fc4.chunk.js": "/Fran-Portfolio/static/js/592.744e2fc4.chunk.js",
+    "static/media/Oswald-BoldItalic.ttf": "/Fran-Portfolio/static/media/Oswald-BoldItalic.490204e44a8b35975a1d.ttf",
+    "static/media/Oswald-ExtraLight.ttf": "/Fran-Portfolio/static/media/Oswald-ExtraLight.1f1e41973d234a2b99ec.ttf",
+    "static/media/logo.svg": "/Fran-Portfolio/static/media/logo.afe2f51b5a5d496f7b511c2c9a903e26.svg",
+    "index.html": "/Fran-Portfolio/index.html",
+    "main.ac87e3cc.css.map": "/Fran-Portfolio/static/css/main.ac87e3cc.css.map",
+    "main.64aa8b90.js.map": "/Fran-Portfolio/static/js/main.64aa8b90.js.map",
+    "592.744e2fc4.chunk.js.map": "/Fran-Portfolio/static/js/592.744e2fc4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac87e3cc.css",
+    "static/js/main.64aa8b90.js"
+  ]
+}
