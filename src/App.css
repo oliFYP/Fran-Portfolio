@@ -1,45 +1,101 @@
 @font-face {
   font-family: "Oswald";
-  src: url("./Oswald-BoldItalic.ttf") format("truetype");
+  src: url("./fonts/Oswald-BoldItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Oswald-Extra";
-  src: url("./Oswald-ExtraLight.ttf") format("truetype");
+  src: url("./fonts/Oswald-ExtraLight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Oswald-Bold";
+  src: url("./fonts/Oswald-Bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 .App {
+  position: relative;
   background-color: #f4f4f4;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: #f4f4f4;
-  font-family: "Oswald", sans-serif; /* Apply the custom font to the entire app */
+  font-family: "Oswald", sans-serif;
+}
+.Top-bar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.logo {
+  height: 80px;
+  margin: 10px;
+}
+
+.languages {
+  font-family: "Oswald-Bold";
+  color: #1a402e;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: 10px; /* Add this line */
 }
 
 h1 {
   font-weight: bold;
   color: #f4f4f4;
-  margin-top: 100px;
   margin-bottom: 0px;
+  margin-top: 0px;
   font-family: "Oswald", sans-serif;
-  font-size: 107px;
+  font-size: 70px;
   -webkit-text-stroke: 1px #1a402e;
 }
-p {
+.intro {
   text-align: center;
   color: #1a402e;
   margin-top: 0px;
-  font-size: 72px;
+  font-size: 50px;
   font-family: "Oswald-Extra", sans-serif;
 }
 
 strong {
   font-family: "Oswald";
+}
+.buttons {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 370px;
+}
+button {
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: #1a402e;
+  color: #f4f4f4;
+  font-weight: bold;
+  font-size: large;
+}
+.About-us {
+  display: flex;
+  justify-self: start;
+  padding: 50px;
+}
+.Portfolio {
+  justify-self: end;
+}
+.Profile {
+  height: 400px;
 }

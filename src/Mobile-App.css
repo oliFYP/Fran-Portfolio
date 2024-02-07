@@ -1,0 +1,39 @@
+@media only screen and (max-width: 778px) {
+  button {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 30px;
+  }
+  .intro {
+    font-size: 30px;
+  }
+  .logo {
+    height: 40px;
+  }
+  .Profile {
+    height: 300px;
+  }
+  .buttons {
+    margin-top: 270px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  h1 {
+    font-size: 40px;
+  }
+  .intro {
+    font-size: 26px;
+  }
+  .Profile {
+    height: 250px;
+  }
+  .buttons {
+    margin-top: 250px;
+  }
+}
