@@ -5,6 +5,9 @@
 }
 
 @media only screen and (max-width: 625px) {
+  .section-1 {
+    height: 569px;
+  }
   h1 {
     font-size: 50px;
     margin-top: 30px;
@@ -29,7 +32,7 @@
 
 @media only screen and (max-width: 370px) {
   .section-1 {
-    height: 110vh;
+    height: 499px;
   }
   .logo {
     margin-left: 20px;
