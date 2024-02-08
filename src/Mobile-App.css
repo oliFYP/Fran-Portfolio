@@ -9,6 +9,10 @@
     font-size: 50px;
     margin-top: 30px;
   }
+
+  .languages {
+    margin-top: 30px;
+  }
   .intro {
     font-size: 30px;
   }
@@ -24,8 +28,11 @@
 }
 
 @media only screen and (max-width: 370px) {
-  .App {
+  .section-1 {
     height: 110vh;
+  }
+  .logo {
+    margin-left: 20px;
   }
   h1 {
     font-size: 40px;

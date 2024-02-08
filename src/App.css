@@ -19,17 +19,18 @@
   font-style: normal;
 }
 
-.App {
+.section-1 {
   position: relative;
   background-color: #f4f4f4;
-  height: 130vh;
+  height: 769px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: calc(10px + 2vmin);
+
   color: #f4f4f4;
   font-family: "Oswald", sans-serif;
 }
+
 .Top-bar {
   display: flex;
   flex-direction: row;
@@ -38,17 +39,34 @@
 }
 
 .logo {
-  height: 80px;
-  margin: 10px;
+  height: 60px;
+  margin-top: 30px;
+  margin-left: 50px;
 }
 
 .languages {
+  display: flex;
+  flex-direction: row; /* Change to column */
+  margin-left: auto;
+  margin-right: 10px;
+  align-items: center; /* Center items horizontally */
+}
+
+.languages p {
+  cursor: pointer;
+  margin: 10px;
+  padding: 0 5px;
   font-family: "Oswald-Bold";
   color: #1a402e;
-  display: flex;
-  flex-direction: row;
-  margin-left: auto;
-  margin-right: 10px; /* Add this line */
+}
+
+.languages p.active {
+  color: #ffffff; /* Change the color for the active language */
+}
+
+.switch-languages {
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -85,7 +103,7 @@ button {
   border-radius: 20px;
   background-color: #1a402e;
   color: #f4f4f4;
-  font-weight: bold;
+  font-family: "Oswald-Bold";
   font-size: large;
 }
 .About-us {
@@ -98,4 +116,14 @@ button {
 }
 .Profile {
   height: 400px;
+  width: auto;
+  object-fit: contain;
+  overflow: hidden;
+  z-index: 200;
+}
+.section-2 {
+  position: relative;
+  height: 400px;
+  background-color: #1a402e;
+  z-index: 999;
 }
