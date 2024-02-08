@@ -9,12 +9,9 @@ function App() {
   const [currentLanguage, setCurrentLanguage] = useState("EN");
   const [checked, setChecked] = useState(false);
 
-  const toggleLanguage = () => {
-    setCurrentLanguage((prevLanguage) => (prevLanguage === "EN" ? "PT" : "EN"));
-  };
-
   const handleChange = (checked) => {
     setChecked(checked);
+    setCurrentLanguage((prevLanguage) => (prevLanguage === "EN" ? "PT" : "EN"));
   };
 
   return (
@@ -22,7 +19,7 @@ function App() {
       <div className="section-1">
         <div className="Top-bar">
           <img className="logo" src={logo} alt="Logo" />
-          <div className="languages" onClick={toggleLanguage}>
+          <div className="languages">
             <p className={`pt ${currentLanguage === "PT" ? "active" : ""}`}>
               PT
             </p>
